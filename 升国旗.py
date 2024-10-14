@@ -73,7 +73,7 @@ i=0
 while(1):
     time.sleep(0.1)
     t1.clear()
-    t.tracer(10,1)                          #表示频率
+    t.tracer(0)                          #表示频率
     cn_flag(0+5,0+i*5)                      
     t.tracer(10,1)
     i+=1
